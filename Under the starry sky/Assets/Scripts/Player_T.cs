@@ -9,6 +9,10 @@ public class Player_T : MonoBehaviour
     [SerializeField] private float MovmentSpeed;
     [SerializeField] private float JumpHeight;
 
+    [Space]
+
+    [SerializeField] private Animator FXAnimator;
+
     Rigidbody2D rigidbody2d;
 
     float horizontal;
@@ -28,19 +32,45 @@ public class Player_T : MonoBehaviour
 
     private void Update()
     {
-        horizontal = Input.GetAxis("Horizontal");
+        horizontal = Input.GetAxisRaw("Horizontal");
         spacekey = Input.GetAxis("Jump");
+
+        if (horizontal != 0)
+        {
+            if (horizontal < 0)
+            {
+                transform.rotation = Quaternion.Euler(0, 180, 0);
+            }
+            else
+            {
+                transform.rotation = Quaternion.Euler(0, 0, 0);
+            }
+            FXAnimator.SetBool("IsRunning", true);
+        }
+        else
+        {
+            FXAnimator.SetBool("IsRunning", false);
+        }
     }
 
     private void FixedUpdate()
     {
-        rigidbody2d.velocity = new Vector2(horizontal * MovmentSpeed, rigidbody2d.velocity.y);
+        rigidbody2d.velocity = new Vector2(MovmentSpeed * horizontal, rigidbody2d.velocity.y);
 
         isgrounded = Physics2D.OverlapCircle(GroundCheck.position, 0.2f, GroundLayer);
 
         if (spacekey != 0 && isgrounded)
         {
             rigidbody2d.velocity = new Vector2(rigidbody2d.velocity.x, JumpHeight * spacekey);
+        }
+
+        if (isgrounded == true)
+        {
+            FXAnimator.SetBool("IsGrounded", true);
+        }
+        else
+        {
+            FXAnimator.SetBool("IsGrounded", false);
         }
     }
 
