@@ -1,2 +1,2 @@
 # Under the starry sky
-To piękna gra osadzona w urokliwym nocnym świecie gwiazd, gdzie gracze mogą odkrywać magiczne krajobrazy, pełne tajemnic i przygód. Oprawa graficzna gry zachwyca niezwykłymi efektami świetlnymi, które podkreślają blask gwiazd na niebie, sprawiając, że całe doświadczenie jest niesamowicie malownicze.
+It is a beautiful game set in a charming night world of stars, where players can explore magical landscapes full of mystery and adventure. The visuals of the game impress with unusual lighting effects that highlight the glow of the stars in the sky, making the whole experience incredibly picturesque.
