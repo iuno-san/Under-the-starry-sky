@@ -719,7 +719,7 @@ PlayerSettings:
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
   cloudServicesEnabled:
-    Build: 0
+    Build: 1
     Game Performance: 0
     Purchasing: 0
     UDP: 0
