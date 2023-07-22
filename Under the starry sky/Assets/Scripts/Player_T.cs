@@ -39,11 +39,11 @@ public class Player_T : MonoBehaviour
         {
             if (horizontal < 0)
             {
-                transform.rotation = Quaternion.Euler(0, 180, 0);
+                transform.localScale = new Vector3(-1, 1, 1);
             }
             else
             {
-                transform.rotation = Quaternion.Euler(0, 0, 0);
+                transform.localScale = new Vector3(1, 1, 1);
             }
             FXAnimator.SetBool("IsRunning", true);
         }
@@ -66,11 +66,11 @@ public class Player_T : MonoBehaviour
 
         if (isgrounded == true)
         {
-            FXAnimator.SetBool("IsGrounded", true);
+            FXAnimator.SetBool("IsGrounded", false);
         }
         else
         {
-            FXAnimator.SetBool("IsGrounded", false);
+            FXAnimator.SetBool("IsGrounded", true);
         }
     }
 
