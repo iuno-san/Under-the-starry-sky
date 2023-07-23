@@ -33,7 +33,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 100
+    spritePixelsToUnits: 16
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -72,7 +72,7 @@ ScriptedImporter:
     fileImportMode: 1
     importHiddenLayers: 0
     layerImportMode: 1
-    defaultPivotSpace: 0
+    defaultPivotSpace: 1
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
     spritePadding: 0
@@ -84,7 +84,7 @@ ScriptedImporter:
     fileImportMode: 1
     importHiddenLayers: 0
     layerImportMode: 1
-    defaultPivotSpace: 0
+    defaultPivotSpace: 1
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
     spritePadding: 0
@@ -93,7 +93,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 638257073419236232
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -119,8 +119,8 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: vagabond-dash_Frame_0
     originalName: 
-    pivot: {x: 0.36363637, y: 0}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -139,8 +139,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 27}
   - name: vagabond-dash_Frame_1
     originalName: 
-    pivot: {x: 0.6666667, y: 0}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -159,8 +159,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: vagabond-dash_Frame_2
     originalName: 
-    pivot: {x: 0.4, y: 0}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -179,8 +179,8 @@ ScriptedImporter:
     uvTransform: {x: 33, y: 4}
   - name: vagabond-dash_Frame_3
     originalName: 
-    pivot: {x: 0.7, y: 0}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -240,7 +240,40 @@ ScriptedImporter:
       spriteId: 487e86d31d04dce47a5b729a51d881c9
     linkedCells: []
     parentIndex: -1
-  platformSettings: []
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 64, y: 64}

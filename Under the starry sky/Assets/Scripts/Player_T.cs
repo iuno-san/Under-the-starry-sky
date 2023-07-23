@@ -72,6 +72,11 @@ public class Player_T : MonoBehaviour
         {
             FXAnimator.SetBool("IsGrounded", true);
         }
+
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            FXAnimator.SetTrigger("Dush");
+        }
     }
 
     private void OnDrawGizmos()
