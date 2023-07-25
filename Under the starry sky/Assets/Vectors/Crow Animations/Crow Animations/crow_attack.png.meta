@@ -108,12 +108,12 @@ TextureImporter:
       name: crow_attack_0
       rect:
         serializedVersion: 2
-        x: 19
+        x: 14
         y: 16
-        width: 23
+        width: 35
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -132,9 +132,9 @@ TextureImporter:
         x: 84
         y: 16
         width: 35
-        height: 27
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -150,10 +150,10 @@ TextureImporter:
       name: crow_attack_2
       rect:
         serializedVersion: 2
-        x: 149
+        x: 148
         y: 16
-        width: 33
-        height: 26
+        width: 35
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,9 +171,9 @@ TextureImporter:
       name: crow_attack_3
       rect:
         serializedVersion: 2
-        x: 211
+        x: 206
         y: 16
-        width: 23
+        width: 35
         height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -192,10 +192,10 @@ TextureImporter:
       name: crow_attack_4
       rect:
         serializedVersion: 2
-        x: 277
+        x: 270
         y: 16
-        width: 21
-        height: 28
+        width: 35
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
